@@ -15,9 +15,7 @@ A Wordle solver to help you solve the popular word-guessing game! This project u
 3. **chromedriver.exe**
    - The Chrome WebDriver binary used for automating interaction with the Wordle web interface.
 
-## Prerequisites
-
-- ChromeDriver compatible with your Chrome version
+## ChromeDriver should be compatible with your Chrome version
 
 ## Installation
 
