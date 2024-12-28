@@ -17,8 +17,6 @@ A Python-based Wordle solver to help you crack the popular word-guessing game! T
 
 ## Prerequisites
 
-- Python 3.7 or higher
-- Google Chrome browser
 - ChromeDriver compatible with your Chrome version
 
 ## Installation
@@ -36,7 +34,7 @@ A Python-based Wordle solver to help you crack the popular word-guessing game! T
 
 3. Verify that `chromedriver.exe` matches your installed Chrome browser version. [Download ChromeDriver](https://sites.google.com/chromium.org/driver/) if needed.
 
-## Usage
+## Before Running The Code
 
 1. Place `answers.txt` in the same directory as the script.
 
@@ -44,32 +42,14 @@ A Python-based Wordle solver to help you crack the popular word-guessing game! T
    ```bash
    python wordle_solver.py
    ```
+3. If automation is enabled, ensure `chromedriver.exe` is in the same directory, and the script will interact directly with the Wordle website.
 
-3. Follow the on-screen prompts to input results (green, yellow, and gray feedback).
-
-4. If automation is enabled, ensure `chromedriver.exe` is in the same directory, and the script will interact directly with the Wordle website.
-
-## Example Workflow
+## How It Works
 
 1. The solver will suggest an initial guess (e.g., "CRANE").
 2. Input feedback from Wordle (e.g., `C` is green, `R` is yellow, others are gray).
 3. The solver will generate subsequent guesses based on the feedback.
 4. Repeat until the correct word is found.
-
-## Customization
-
-- Update `answers.txt` to include additional words or remove uncommon ones.
-- Modify the logic in the script to change guess priorities.
-
-## Troubleshooting
-
-- **ChromeDriver Issues**: Ensure `chromedriver.exe` is compatible with your installed version of Chrome.
-- **Missing Dependencies**: Re-run `pip install selenium`.
-- **Accuracy Issues**: Verify that `answers.txt` contains a complete and valid word list.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
