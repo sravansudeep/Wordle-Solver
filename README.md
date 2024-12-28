@@ -1,6 +1,6 @@
 # Wordle Solver
 
-A Python-based Wordle solver to help you crack the popular word-guessing game! This project uses a word list (`answers.txt`) and a Chrome WebDriver (`chromedriver.exe`) for automation and logic implementation.
+A Wordle solver to help you solve the popular word-guessing game! This project uses a word list (`answers.txt`) and a Chrome WebDriver (`chromedriver.exe`) for automation and logic implementation.
 
 ## Features
 - Efficiently narrows down possible answers using logic and constraints.
@@ -9,7 +9,7 @@ A Python-based Wordle solver to help you crack the popular word-guessing game! T
 
 ## Files Included
 1. **Wordle Solver Script**
-   - The core Python script that implements the solver logic.
+   - The Python script that implements the solver logic.
 2. **answers.txt**
    - A text file containing all possible Wordle answers.
 3. **chromedriver.exe**
